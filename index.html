@@ -16,7 +16,7 @@
              <a href="index.html"><img src="img/logotipo_invisible_final.png" alt="logo"></a>
             
         <div class="nav-links" id="navLinks">
-            <i class="fa fa-times"></i>
+            <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul> 
                      <li><a href="">Home</a></li>
                      <li><a href="">Nosotros</a></li>
@@ -25,13 +25,13 @@
                      <li><a href="">Contacto</a></li>
                  </ul>
         </div>
-        <i class="fa fa-barss"></i>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
          </nav>
 
          <div class="text-box">
              <h1>INVISIBLE <br>
                  ESTUDIO <br>
-                 CREATIVO <br>
+                 CREATIVO <br><br>
 
                  <a href="" class="hero-btn">Cuentanos tu idea</a>
              </h1>
@@ -47,7 +47,18 @@
 
   
 
-  
+
+    <!--JAVA for toggle menu-->
+  <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      function hideMenu(){
+          navLinks.style.right = "-200px";
+      }
+  </script>
 
 </body>
 </html>
