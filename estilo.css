@@ -62,7 +62,8 @@ nav a:hover::after{
 }
 
 .text-box{
-    width: 50vh;
+    width: 30vh;
+    height: 30vh;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -75,7 +76,7 @@ nav a:hover::after{
 .text-box h1{
     font-size: 30px;
     border: 1px solid #c90d00;
-    padding:  34px;
+    padding: 35px;
     
 }
 
