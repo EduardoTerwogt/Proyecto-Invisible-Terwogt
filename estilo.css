@@ -108,6 +108,24 @@ nav .fa{
     .text-box h1{
         font-size: 20px;
     }
+
+    .hero-btn{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding:  10px;
+        position: relative;
+        cursor: pointer;
+        font-size: 10px;
+         
+    }
+    
+    .hero-btn:hover{
+        
+        background-color: #c90d00;
+        transition: .5s;
+    }
+    
     .nav-links ul li{
         display: block;
     }
